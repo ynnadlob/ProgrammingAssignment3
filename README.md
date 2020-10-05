@@ -1,4 +1,5 @@
 ## ProgrammingAssignment3
+
 Repositorio para Programming Assignment 3 del curso "Getting and Cleaning Data" de Coursera
 
 ## Propósito
@@ -16,16 +17,21 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Debes crear un script R llamado run_analysis.R que haga lo siguiente.
 
 1. Fusiona el entrenamiento y los juegos de pruebas para crear un conjunto de datos.
-2. 3. Extrae sólo las medidas de la media y la desviación estándar de cada medida.
-3. 3. Utiliza nombres descriptivos de las actividades para nombrar las actividades del conjunto de datos
+2. Extrae sólo las medidas de la media y la desviación estándar de cada medida.
+3. Utiliza nombres descriptivos de las actividades para nombrar las actividades del conjunto de datos
 4. Etiqueta adecuadamente el conjunto de datos con nombres descriptivos de las variables.
 5. A partir del conjunto de datos del paso 4, crea un segundo conjunto de datos ordenado e independiente con el promedio de cada variable para cada actividad y cada sujeto.
 
 ## Librerías a utilizar
+
 data.table
+
 reshape2 (dependiente de plyr)
 
 ## Archivos en el repositorio
+
 run_analysis.R: archivo que contiene el script para generar el archivo tiny_data.txt
+
 tiny_data.txt: archivo generado de acuerdo a lo solicitado
+
 CodeBook.md: archivo con el resumen de variables existentes en el archivo tiny_data.txt
