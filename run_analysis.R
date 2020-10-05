@@ -1,7 +1,7 @@
 ## Librerías a utilizar
-#require("data.table")
-#require("plyr")
-#require("reshape2")
+require("data.table")
+require("plyr")
+require("reshape2")
 
 ## 1. Merges the training and the test sets to create one data set
 
